@@ -1,0 +1,149 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  text-align: center;
+  padding-bottom: 13%;
+}
+
+.mainpage {
+  font-family: 'Satisfy', cursive;
+  font-size: 70px;
+  margin: 9% auto 0 auto;
+  text-align: center;
+  font-weight: 900;
+  color: #c8c8c8;
+  width: 500px;
+  height: 100px;
+  background-color: RGBA(0, 0, 0, 0.5);
+}
+
+.secondheading {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-weight: 900;
+  color: #d0d0d0;
+  width: 500px;
+  height: 50px;
+  background-color: RGBA(0, 0, 0, 0.5);
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.navbar {
+  padding: 1% 0 4.5rem;
+}
+
+#about {
+  padding: 6% 13%;
+  margin-bottom: 8%;
+}
+
+.plateimg {
+  float: left;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 35px solid;
+  border-color: brown;
+  margin: 50px;
+}
+
+.aboutheading {
+  padding-top: 7%;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.aboutsection {
+  font-size: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#specials {
+  color: #fff;
+  background-color: #CD853F;
+  text-align: center;
+}
+.pasta-img {
+  padding-bottom: 5%;
+}
+.pizza-img {
+  padding-bottom: 5%;
+}
+.momos-img {
+  padding-bottom: 5%;
+}
+.pasta {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.pizza {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.momos {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.noodles {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.samosa {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.burger {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+#cta {
+  background-color: #CD853F;
+  color: white;
+  padding: 6% 15%;
+  text-align: center;
+  font-weight: 700;
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+ padding: 7% 15%;
+}
+.social-link {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .mainpage {
+    text-align: center;
+    width: 300px;
+    height: 120px;
+    font-size: 50px;
+  }
+
+  .secondheading {
+    font-size: 30px;
+    width: 300px;
+    height: 80px;
+  }
+  #about {
+    text-align: center;
+  }
+  #cta {
+    text-align: center;
+  }
+}
